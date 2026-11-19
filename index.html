@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GK Hemanth | Computer Science Student & Portfolio</title>
+  <meta name="description" content="Personal portfolio of GK Hemanth, student at Jain (Deemed-to-be University). Verified LinkedIn Learning credentials in Graph Neural Networks, Computer Architecture, and Discrete Mathematics.">
+  <meta property="og:title" content="GK Hemanth | Computer Science Student & Portfolio">
+  <meta property="og:description" content="Personal portfolio of GK Hemanth, student at Jain (Deemed-to-be University). Verified LinkedIn Learning credentials in Graph Neural Networks, Computer Architecture, and Discrete Mathematics.">
+  <meta name="author" content="GK Hemanth">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Modern Stylesheet with Dual Theme Support (Normal & Dark) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-badge">GK</span>
+        <span>GK Hemanth</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <!-- Theme Switcher: Normal / Dark -->
+        <div class="theme-switcher" role="radiogroup" aria-label="Theme selector">
+          <button id="theme-btn-normal" class="theme-btn active" title="Switch to Normal (Bright) theme" aria-label="Normal Theme">
+            <i class="fas fa-sun"></i> <span>Normal</span>
+          </button>
+          <button id="theme-btn-dark" class="theme-btn" title="Switch to Dark theme" aria-label="Dark Theme">
+            <i class="fas fa-moon"></i> <span>Dark</span>
+          </button>
+        </div>
+
+        <a href="#contact" class="btn-nav-contact">
+          <i class="far fa-envelope"></i> <span>Contact</span>
+        </a>
+
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Student at Jain (Deemed-to-be University)</span>
+        </div>
+
+        <h1 class="hero-title">
+          GK <span class="hero-title-accent">Hemanth</span>
+        </h1>
+
+        <div class="hero-subtitle">
+          <span id="typing-text"></span>
+        </div>
+
+        <p class="hero-bio">
+          Computer Science student exploring the synergy between <strong>Computer Architecture</strong>, <strong>Discrete Mathematics</strong>, and modern <strong>Graph Neural Networks (GNNs)</strong>. Dedicated to building efficient, mathematically sound intelligent systems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#certifications" class="btn btn-primary">
+            <i class="fab fa-linkedin"></i> View Certifications
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="far fa-paper-plane"></i> Get in Touch
+          </a>
+          <a href="https://github.com/hemanthgadivemula-byte" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <span class="metric-value">3</span>
+            <span class="metric-label">LinkedIn Certifications</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value">Jain Univ</span>
+            <span class="metric-label">Bangalore, India</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value">AI & Systems</span>
+            <span class="metric-label">Core Focus Areas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Profile Card -->
+      <div class="hero-card">
+        <div class="avatar-initials">GK</div>
+        <h2 class="hero-card-name">G K Hemanth</h2>
+        <div class="hero-card-uni">Jain (Deemed-to-be University)</div>
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1.2rem;">
+          Computer Science & Engineering • Bangalore
+        </p>
+        <div class="hero-card-tags">
+          <span class="tag-pill">Graph Neural Networks</span>
+          <span class="tag-pill">Computer Architecture</span>
+          <span class="tag-pill">Discrete Math</span>
+          <span class="tag-pill">AI Foundations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Background</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">
+          Balancing theoretical computer science with hardware systems and modern machine learning models.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3><i class="fas fa-graduation-cap" style="color: var(--primary);"></i> Academic Foundation</h3>
+          <p>
+            I am a student at <strong>Jain (Deemed-to-be University)</strong>, Bangalore. My academic journey focuses on developing a comprehensive understanding of computing — from mathematical proofs and low-level hardware structures to deep neural representations.
+          </p>
+          <p>
+            Studying discrete structures provides me with clarity in graph theory and combinatorial logic, which directly supports my work with Graph Neural Networks.
+          </p>
+          <ul class="about-list">
+            <li><i class="fas fa-check"></i> <span>Rigorous foundation in discrete mathematics, logic, and graph theory.</span></li>
+            <li><i class="fas fa-check"></i> <span>Hardware-aware programming: memory hierarchy, CPU caching, and pipelining.</span></li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3><i class="fas fa-laptop-code" style="color: var(--primary);"></i> Technical Interests</h3>
+          <p>
+            I aim to engineer scalable, high-performance artificial intelligence solutions. By combining machine learning theory with systems architecture knowledge, I strive to design models that are not only accurate but also computationally efficient.
+          </p>
+          <ul class="about-list">
+            <li><i class="fas fa-check"></i> <span><strong>Graph Neural Networks (GNNs):</strong> Modeling relational data for node classification and graph analytics.</span></li>
+            <li><i class="fas fa-check"></i> <span><strong>Computer Architecture:</strong> CPU pipelines, instruction sets, and memory subsystems.</span></li>
+            <li><i class="fas fa-check"></i> <span><strong>Discrete Mathematics:</strong> Graph theory, logic gates, Boolean satisfiability, and proofs.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Official Credentials</span>
+        <h2 class="section-title">LinkedIn Learning Certifications</h2>
+        <p class="section-desc">
+          Verified professional certifications completed by G K Hemanth, authorized by LinkedIn Learning and Shea Hanson, Head of Learning Content Strategy.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="cert-tabs">
+        <button class="cert-tab-btn active" data-filter="all">All Certifications (3)</button>
+        <button class="cert-tab-btn" data-filter="ai">Graph Neural Networks</button>
+        <button class="cert-tab-btn" data-filter="systems">Computer Architecture</button>
+        <button class="cert-tab-btn" data-filter="math">Discrete Mathematics</button>
+      </div>
+
+      <!-- Dynamic Cards Grid -->
+      <div id="certificates-grid" class="cert-grid">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Competencies</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-desc">
+          Structured overview of core competencies developed through coursework, projects, and certifications.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill Box 1 -->
+        <div class="skill-box">
+          <div class="skill-box-head">
+            <div class="skill-box-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3 class="skill-box-title">Graph AI & Deep Learning</h3>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Graph Neural Networks (GNNs)</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Node Classification & Embeddings</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 84%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Artificial Intelligence Foundations</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 82%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Skill Box 2 -->
+        <div class="skill-box">
+          <div class="skill-box-head">
+            <div class="skill-box-icon"><i class="fas fa-microchip"></i></div>
+            <h3 class="skill-box-title">Computer Architecture</h3>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Computer Hardware Systems</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Memory Hierarchy & Caching</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Pipeline Hazards & Instruction Sets</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 82%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Skill Box 3 -->
+        <div class="skill-box">
+          <div class="skill-box-head">
+            <div class="skill-box-icon"><i class="fas fa-calculator"></i></div>
+            <h3 class="skill-box-title">Discrete Mathematics</h3>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Graph Theory & Network Logic</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Propositional & Predicate Logic</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 86%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Set Theory & Combinatorics</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Skill Box 4 -->
+        <div class="skill-box">
+          <div class="skill-box-head">
+            <div class="skill-box-icon"><i class="fas fa-code"></i></div>
+            <h3 class="skill-box-title">Programming & Tools</h3>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Python & Scientific Stack</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>C / C++ Foundations</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 82%;"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Git, Web Standards & Linux</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Applications</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">
+          Practical applications translating theoretical and certified knowledge into working systems.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <span class="project-badge">Graph Neural Networks</span>
+          <h3 class="project-title">GraphSense: Relational GNN Classifier</h3>
+          <p class="project-desc">
+            An end-to-end Graph Neural Network system performing node classification and link prediction across citation datasets using Graph Convolutional Networks (GCN).
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">PyTorch Geometric</span>
+            <span class="project-tag">Graph Theory</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <span class="project-badge">Computer Architecture</span>
+          <h3 class="project-title">SimPipe-32: CPU Pipeline Emulator</h3>
+          <p class="project-desc">
+            A software emulation of a 5-stage RISC processor pipeline, exploring data forwarding, hazard detection, branch prediction, and multi-level cache behavior.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">Computer Architecture</span>
+            <span class="project-tag">Hardware Logic</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <span class="project-badge">Discrete Mathematics</span>
+          <h3 class="project-title">DiscreteLogix: Graph Solver & Logic Engine</h3>
+          <p class="project-desc">
+            A computational engine solving Boolean satisfiability (SAT), graph coloring problems, and shortest-path tree algorithms with step-by-step visual proof trees.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Discrete Math</span>
+            <span class="project-tag">Algorithms</span>
+            <span class="project-tag">Combinatorics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Contact Form Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact GK Hemanth</h2>
+        <p class="section-desc">
+          Feel free to reach out for research discussions, project inquiries, or academic collaborations.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Details -->
+        <div class="contact-details">
+          <div class="contact-card-info">
+            <h3>Contact Information</h3>
+            <p>
+              I am interested in opportunities in machine learning research, software engineering, and systems development.
+            </p>
+
+            <div class="contact-points">
+              <div class="contact-point">
+                <div class="contact-point-icon"><i class="fas fa-university"></i></div>
+                <div class="contact-point-text">
+                  <h5>University</h5>
+                  <span>Jain (Deemed-to-be University), Bangalore</span>
+                </div>
+              </div>
+
+              <div class="contact-point">
+                <div class="contact-point-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-point-text">
+                  <h5>Location</h5>
+                  <span>Bangalore, Karnataka, India</span>
+                </div>
+              </div>
+
+              <div class="contact-point">
+                <div class="contact-point-icon"><i class="fab fa-github"></i></div>
+                <div class="contact-point-text">
+                  <h5>GitHub Profile</h5>
+                  <a href="https://github.com/hemanthgadivemula-byte" target="_blank" rel="noopener noreferrer">github.com/hemanthgadivemula-byte</a>
+                </div>
+              </div>
+
+              <div class="contact-point">
+                <div class="contact-point-icon"><i class="fab fa-linkedin"></i></div>
+                <div class="contact-point-text">
+                  <h5>LinkedIn Profile</h5>
+                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">G K Hemanth on LinkedIn</a>
+                </div>
+              </div>
+
+              <div class="contact-point">
+                <div class="contact-point-icon"><i class="far fa-envelope"></i></div>
+                <div class="contact-point-text">
+                  <h5>Personal Email</h5>
+                  <a href="mailto:hemanth.gadivemula@gmail.com">hemanth.gadivemula@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fully Implemented Contact Form -->
+        <div class="contact-form-container">
+          <!-- Toolbar with Inbox Status & View Submissions Button -->
+          <div class="inbox-toolbar">
+            <div class="inbox-status-pill">
+              <i class="fas fa-check-circle" style="color: var(--success);"></i>
+              <span>Active Contact Endpoint</span>
+            </div>
+            <button id="view-inbox-btn" class="btn-view-inbox" title="View messages stored locally">
+              <i class="fas fa-inbox"></i> View Inquiries (<span id="inbox-count">0</span>)
+            </button>
+          </div>
+
+          <!-- Alert / Toast Container -->
+          <div id="form-alert" class="form-alert" role="alert"></div>
+
+          <form id="portfolio-contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <div class="form-label-row">
+                  <label for="name">Your Name *</label>
+                </div>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Smith" autocomplete="name" required>
+              </div>
+
+              <div class="form-field">
+                <div class="form-label-row">
+                  <label for="email">Your Email *</label>
+                </div>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" autocomplete="email" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <div class="form-label-row">
+                <label for="subject">Subject *</label>
+              </div>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Research Collaboration / Opportunity" required>
+            </div>
+
+            <div class="form-field">
+              <div class="form-label-row">
+                <label for="message">Message *</label>
+                <span id="char-counter" class="char-counter">0 / 600</span>
+              </div>
+              <textarea id="message" name="message" class="form-textarea" maxlength="600" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <div class="form-buttons-row">
+              <button type="submit" id="submit-btn" class="form-submit">
+                <i class="far fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+
+              <button type="button" id="mailto-fallback-btn" class="btn-email-app" title="Prefill your mail client with this message">
+                <i class="fas fa-envelope-open-text"></i>
+                <span>Email Client</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Certificate Preview Modal -->
+  <div id="cert-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-cert-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modal-cert-title">Certificate Preview</h3>
+        <button id="modal-close-btn" class="modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+      <div id="modal-cert-body" class="modal-body">
+        <!-- PDF embedded here dynamically -->
+      </div>
+      <div class="modal-footer">
+        <a id="modal-download-btn" href="#" download class="btn btn-primary">
+          <i class="fas fa-download"></i> Download Certificate PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inquiries Inbox Modal (Local Store Viewer) -->
+  <div id="inbox-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="inbox-modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="inbox-modal-title"><i class="fas fa-inbox" style="color: var(--primary); margin-right: 6px;"></i> Received Contact Inquiries</h3>
+        <button id="inbox-close-btn" class="modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+      <div id="inbox-modal-body" class="modal-body">
+        <!-- Loaded dynamically from /api/messages -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="inbox-refresh-btn" class="btn btn-outline" style="font-size: 0.85rem;">
+          <i class="fas fa-sync-alt"></i> Refresh
+        </button>
+        <button type="button" id="inbox-close-footer-btn" class="btn btn-primary" style="font-size: 0.85rem;">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Minimal Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 <strong>GK Hemanth</strong> • Student of Jain (Deemed-to-be University). All rights reserved.</p>
+      <p style="font-size: 0.8rem; color: var(--text-subtle);">
+        Hosted locally at <a href="http://localhost:3000" style="color: var(--primary); text-decoration: none;">http://localhost:3000</a> • Certified with LinkedIn Learning
+      </p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
